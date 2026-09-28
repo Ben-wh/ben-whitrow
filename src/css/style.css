@@ -14,6 +14,10 @@ html {
     scroll-padding-top: calc(var(--NAV-HEIGHT) + 10px);
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     background-color: var(--BG-COLOR);
